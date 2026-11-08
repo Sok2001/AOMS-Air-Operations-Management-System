@@ -1,4 +1,4 @@
-name: Build AOMS for Windows
+name: Build AOMS Windows Installer
 
 on:
   workflow_dispatch:
@@ -18,13 +18,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pyinstaller
 
-      - name: Build AOMS
+      - name: Build AOMS executable
         shell: pwsh
         run: |
           $buildArgs = @(
@@ -40,10 +40,30 @@ jobs:
             "--collect-all", "fitz",
             "main.py"
           )
+
           python -m PyInstaller @buildArgs
 
-      - name: Upload Windows executable
+      - name: Install Inno Setup
+        run: choco install innosetup --no-progress -y
+
+      - name: Build Windows Installer
+        shell: pwsh
+        run: |
+          $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+
+          if (!(Test-Path $iscc)) {
+              throw "Inno Setup compiler not found."
+          }
+
+          & $iscc "installer\AOMS.iss"
+
+          if (!(Test-Path "dist\AOMS-Setup.exe")) {
+              throw "AOMS installer was not created."
+          }
+
+      - name: Upload Windows Installer
         uses: actions/upload-artifact@v4
         with:
-          name: AOMS-Windows
-          path: dist/AOMS.exe
+          name: AOMS-Windows-Installer
+          path: dist/AOMS-Setup.exe
+          if-no-files-found: error

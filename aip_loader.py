@@ -12,10 +12,9 @@ import os
 import re
 
 from database import get_connection
-from app_paths import resource_path
+from app_paths import resource_path, CHARTS_DIR
 
 DATA_DIR = resource_path("data")
-CHARTS_DIR = resource_path("charts")
 
 DATA_FILES = ["airport", "runways", "navaids", "frequencies", "stands", "aprons",
               "obstacles", "notes", "charts_catalog"]

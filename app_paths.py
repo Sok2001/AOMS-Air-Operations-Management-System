@@ -15,7 +15,9 @@ if IS_FROZEN:
             "AOMS"
         )
     else:
-        APP_DATA_DIR = os.path.expanduser("~/.local/share/AOMS")
+        APP_DATA_DIR = os.path.expanduser(
+            "~/.local/share/AOMS"
+        )
 else:
     APP_DATA_DIR = BASE_DIR
 
@@ -29,6 +31,11 @@ DATABASE_PATH = os.environ.get(
 BACKUP_DIR = os.path.join(APP_DATA_DIR, "backup")
 FLIGHTS_FILE = os.path.join(APP_DATA_DIR, "flights.json")
 
+# Persistent chart storage: outside the temporary PyInstaller bundle.
+CHARTS_DIR = os.path.join(APP_DATA_DIR, "charts")
+
+os.makedirs(BACKUP_DIR, exist_ok=True)
+os.makedirs(CHARTS_DIR, exist_ok=True)
 
 
 def resource_path(*parts):

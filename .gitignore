@@ -35,3 +35,6 @@ dist/
 # Aviation charts - excluded pending redistribution permission
 charts/DAAG/*.pdf
 charts/DAAG/*.png
+
+# Keep the main PyInstaller configuration
+!AOMS.spec
