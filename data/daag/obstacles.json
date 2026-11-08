@@ -1,0 +1,209 @@
+[
+ {
+  "obst_id": "DAAGOB001",
+  "type": "Water tower",
+  "position": "QDR 87.15° and 2746 M from THR 27",
+  "elev_hgt": "60.64 / 31.84 M",
+  "marking": "Marked and LGTD",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB002",
+  "type": "Building",
+  "position": "364135.80N 0030932.50E",
+  "elev_hgt": "28 / 18 M",
+  "marking": "Not marked",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB003",
+  "type": "LOC antenna",
+  "position": "364131.96N 0031303.06E",
+  "elev_hgt": "26.10 / 1.10 M",
+  "marking": "Marked and LGTD",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB004",
+  "type": "Minaret",
+  "position": "364408.93N 0030816.93E",
+  "elev_hgt": "HGT 290 M",
+  "marking": "LGTD",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB005",
+  "type": "Refinery torch",
+  "position": "364051.89N 0030724.03E",
+  "elev_hgt": "120 / 100 M",
+  "marking": "Marked and LGTD",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB006",
+  "type": "BARAKI stadium",
+  "position": "west of AD, 4300 M of THR 09, ext. of RCL 27",
+  "elev_hgt": "64.11 / 51.91 M",
+  "marking": "Not marked",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB007",
+  "type": "Building",
+  "position": "364606.31N 0030111.40E",
+  "elev_hgt": "385 / 124 M",
+  "marking": "Not marked",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB008",
+  "type": "Antenna",
+  "position": "364134.60N 0030728.10E",
+  "elev_hgt": "60 / 50 M",
+  "marking": "Marked and LGTD",
+  "area": "Approach / take-off",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB009",
+  "type": "TWR",
+  "position": "364200N 0031255E",
+  "elev_hgt": "HGT 45 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB010",
+  "type": "GP antenna",
+  "position": "364127.4N 0031027.4E",
+  "elev_hgt": "38.65 / 13.65 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB011",
+  "type": "Radar SMR antenna",
+  "position": "364119.1N 0031304E",
+  "elev_hgt": "52 / 25 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB012",
+  "type": "Radar SSR antenna",
+  "position": "364037N 0031050E",
+  "elev_hgt": "ELEV 49 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB038",
+  "type": "New TWR",
+  "position": "364156.03N 0031234.28E",
+  "elev_hgt": "87.17 / 72 M",
+  "marking": "LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": ""
+ },
+ {
+  "obst_id": "DAAGOB013-023",
+  "type": "Pylons PRKG P13 (11)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 30 M (013-016), 15 M (017-023)",
+  "marking": "LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB024-030",
+  "type": "Pylons PRKG P14 (7)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 15 M (024-028), 30 M (029-030)",
+  "marking": "LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB031-037",
+  "type": "Pylons PRKG P12 (7)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 30 M",
+  "marking": "LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB039-047",
+  "type": "Pylons PRKG P1 (9)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 25 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB048-053",
+  "type": "Pylons PRKG P2 (6)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 25 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB054-056",
+  "type": "Pylons PRKG P5 (3)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 21 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB057-058",
+  "type": "Pylons PRKG P7 (2)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 21 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB059-061",
+  "type": "Pylons PRKG P8 (3)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 21 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB062-065",
+  "type": "Pylons PRKG P9 (4)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 21 M",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ },
+ {
+  "obst_id": "DAAGOB066-072",
+  "type": "Pylons PRKG P15 (7)",
+  "position": "see AIP AD 2.10",
+  "elev_hgt": "HGT 21 M (066-071), 35 M (072)",
+  "marking": "Marked and LGTD",
+  "area": "Circling / aerodrome",
+  "remarks": "grouped"
+ }
+]

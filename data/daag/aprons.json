@@ -1,0 +1,238 @@
+{
+ "aprons": [
+  {
+   "apron": "P1",
+   "elevation_m": 18,
+   "surface_strength": "Asphalt; 880 F/D/W/T (C1–C11)"
+  },
+  {
+   "apron": "P2",
+   "elevation_m": 17,
+   "surface_strength": "Bituminous concrete"
+  },
+  {
+   "apron": "P3",
+   "elevation_m": 18,
+   "surface_strength": "570 F/D/W/T Bituminous Concrete (hangar access 310 F/D/W/T)"
+  },
+  {
+   "apron": "P4",
+   "elevation_m": 18,
+   "surface_strength": "Bituminous Concrete"
+  },
+  {
+   "apron": "P5",
+   "elevation_m": 21,
+   "surface_strength": "Bituminous concrete 920 F/D/W/T"
+  },
+  {
+   "apron": "P6",
+   "elevation_m": 18,
+   "surface_strength": "Bituminous Concrete"
+  },
+  {
+   "apron": "P7",
+   "elevation_m": 18,
+   "surface_strength": "Bituminous Concrete"
+  },
+  {
+   "apron": "P8",
+   "elevation_m": 18,
+   "surface_strength": "Bituminous Concrete"
+  },
+  {
+   "apron": "P9",
+   "elevation_m": 18,
+   "surface_strength": "Bituminous concrete 530 F/D/W/T"
+  },
+  {
+   "apron": "P10",
+   "elevation_m": 16,
+   "surface_strength": "Concrete 910 R/D/W/T"
+  },
+  {
+   "apron": "P11",
+   "elevation_m": 15,
+   "surface_strength": "Concrete 920 R/D/W/T"
+  },
+  {
+   "apron": "P12",
+   "elevation_m": 15,
+   "surface_strength": "Concrete 920 R/D/W/T"
+  },
+  {
+   "apron": "P13",
+   "elevation_m": 15,
+   "surface_strength": "Concrete 920 R/D/W/T"
+  },
+  {
+   "apron": "P14",
+   "elevation_m": 15,
+   "surface_strength": "Concrete 920 R/D/W/T"
+  },
+  {
+   "apron": "P15",
+   "elevation_m": 16,
+   "surface_strength": "Bituminous concrete NIL"
+  },
+  {
+   "apron": "Helipad",
+   "elevation_m": 16,
+   "surface_strength": "NIL"
+  }
+ ],
+ "taxiways": [
+  {
+   "width_m": 25,
+   "surface": "Bituminous Concrete",
+   "pcr": "PCR 920 F/D/W/T",
+   "twys": [
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "C2",
+    "C3",
+    "D1",
+    "D2",
+    "E1",
+    "E2",
+    "F1",
+    "F2",
+    "G",
+    "J1",
+    "J4",
+    "J5"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 25,
+   "surface": "Bituminous Concrete",
+   "pcr": "PCR 1050 F/D/W/T",
+   "twys": [
+    "A1"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 37,
+   "surface": "Bituminous Concrete",
+   "pcr": "PCR 920 F/D/W/T",
+   "twys": [
+    "J6",
+    "J7",
+    "J8",
+    "J12"
+   ],
+   "remarks": "apron taxiways"
+  },
+  {
+   "width_m": 37,
+   "surface": "Concrete",
+   "pcr": "PCR 910 R/D/W/T",
+   "twys": [
+    "J11"
+   ],
+   "remarks": "apron taxiway"
+  },
+  {
+   "width_m": 25,
+   "surface": "NIL",
+   "pcr": "PCR 910 R/D/W/T",
+   "twys": [
+    "J13"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 25,
+   "surface": "Concrete",
+   "pcr": "PCR 950 R/D/W/T",
+   "twys": [
+    "J2",
+    "J3",
+    "H1",
+    "H2"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 23,
+   "surface": "Concrete",
+   "pcr": "PCR 920 F/D/W/T",
+   "twys": [
+    "J9",
+    "J10"
+   ],
+   "remarks": "J9 right of P12, J10 left of P12"
+  },
+  {
+   "width_m": 19,
+   "surface": "Bituminous Concrete",
+   "pcr": "PCR 920 F/D/W/T",
+   "twys": [
+    "E3"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 19,
+   "surface": "Bituminous Concrete",
+   "pcr": "PCR 490 F/D/W/T",
+   "twys": [
+    "D3"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 25,
+   "surface": "Concrete",
+   "pcr": "PCR 830 R/D/W/T",
+   "twys": [
+    "D4"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 25,
+   "surface": "Bituminous Concrete",
+   "pcr": "PCR 530 F/D/W/T",
+   "twys": [
+    "C4",
+    "C6",
+    "C7"
+   ],
+   "remarks": ""
+  },
+  {
+   "width_m": 25,
+   "surface": "NIL",
+   "pcr": "PCR 870 F/D/W/T",
+   "twys": [
+    "J (0–1129 m)",
+    "J (2522–2832 m)"
+   ],
+   "remarks": "TWY J segments"
+  },
+  {
+   "width_m": 25,
+   "surface": "NIL",
+   "pcr": "PCR 960 R/D/W/T",
+   "twys": [
+    "J (1129–2522 m)",
+    "J (2832–3452 m)"
+   ],
+   "remarks": "TWY J segments"
+  }
+ ]
+}

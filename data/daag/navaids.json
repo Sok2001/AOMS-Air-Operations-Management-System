@@ -1,0 +1,137 @@
+[
+ {
+  "type": "DVOR/DME",
+  "ident": "ALR",
+  "freq": "112.5 MHz",
+  "channel": "72X",
+  "lat": "364127.59N",
+  "lon": "0031255.73E",
+  "remarks": "H24"
+ },
+ {
+  "type": "DVOR/DME",
+  "ident": "ZEM",
+  "freq": "116.6 MHz",
+  "channel": "113X",
+  "lat": "364742N",
+  "lon": "0033415E",
+  "remarks": "H24 · range 200 NM / FL400 · holding fix"
+ },
+ {
+  "type": "DVOR/DME",
+  "ident": "SDM",
+  "freq": "113.9 MHz",
+  "channel": "86X",
+  "lat": "363747.69N",
+  "lon": "0025821.50E",
+  "remarks": "H24"
+ },
+ {
+  "type": "NDB",
+  "ident": "SMR",
+  "freq": "370 kHz",
+  "channel": "",
+  "lat": "364134.39N",
+  "lon": "0030523.54E",
+  "remarks": "H24"
+ },
+ {
+  "type": "NDB",
+  "ident": "MAR",
+  "freq": "416 kHz",
+  "channel": "",
+  "lat": "364105.15N",
+  "lon": "0024655.78E",
+  "remarks": "H24 · holding"
+ },
+ {
+  "type": "LOC 23",
+  "ident": "AG",
+  "freq": "110.3 MHz",
+  "channel": "",
+  "lat": "364131.96N",
+  "lon": "0031303.06E",
+  "remarks": "ILS CAT I (classification CAT III stated - verify)"
+ },
+ {
+  "type": "GP 23",
+  "ident": "",
+  "freq": "335 MHz",
+  "channel": "",
+  "lat": "364236.54N",
+  "lon": "0031457.00E",
+  "remarks": ""
+ },
+ {
+  "type": "DME-P",
+  "ident": "AG",
+  "freq": "",
+  "channel": "40X",
+  "lat": "364236.54N",
+  "lon": "0031457.00E",
+  "remarks": "co-located with GP 23"
+ },
+ {
+  "type": "LOC 09",
+  "ident": "HB",
+  "freq": "108.5 MHz",
+  "channel": "",
+  "lat": "364127.78N",
+  "lon": "0031247.89E",
+  "remarks": "ILS CAT I"
+ },
+ {
+  "type": "GP 09",
+  "ident": "",
+  "freq": "329.9 MHz",
+  "channel": "",
+  "lat": "364127.40N",
+  "lon": "0031027.40E",
+  "remarks": ""
+ },
+ {
+  "type": "DME-P",
+  "ident": "HB",
+  "freq": "",
+  "channel": "22X",
+  "lat": "364127.40N",
+  "lon": "0031027.40E",
+  "remarks": "co-located with GP 09"
+ },
+ {
+  "type": "Locator",
+  "ident": "OA",
+  "freq": "342 kHz",
+  "channel": "",
+  "lat": "364651N",
+  "lon": "0032144E",
+  "remarks": "residual holding"
+ },
+ {
+  "type": "LOC 27",
+  "ident": "AL",
+  "freq": "109.5 MHz",
+  "channel": "",
+  "lat": "364131.75N",
+  "lon": "0031001.84E",
+  "remarks": "ILS CAT I"
+ },
+ {
+  "type": "GP 27",
+  "ident": "",
+  "freq": "332.6 MHz",
+  "channel": "",
+  "lat": "364124.48N",
+  "lon": "0031223.57E",
+  "remarks": ""
+ },
+ {
+  "type": "DME",
+  "ident": "AL",
+  "freq": "",
+  "channel": "23X",
+  "lat": "364124.48N",
+  "lon": "0031223.57E",
+  "remarks": ""
+ }
+]

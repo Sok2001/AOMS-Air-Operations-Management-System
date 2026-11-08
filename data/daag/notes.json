@@ -1,0 +1,13 @@
+[
+ "Source: AIP Algeria AD 2.DAAG (text pages dated 17 APR 25 / 10 JUL 25 / 16 DEC 25) + charts AD 2 DAAG-AD and AD2 DAAG-APDC1 (AIRAC AMDT 01/26, 19 FEB 26). Newer chart data wins where noted.",
+ "Runway bearings stored as TRUE (AIP 2.12) and MAGNETIC (true minus 2°E variation, matches the AD chart labels 051/231/270). METAR winds are true, so the true bearing is used for wind components.",
+ "RWY 05 threshold elevation: AIP 2.12 = 21 M, APDC1 chart (AMDT 01/26) = 20 M. Stored value 21 M from AIP text — verify.",
+ "RWY 09/27 surface: AIP 2.12 = Bituminous Concrete, APDC1 chart label = Asphalt. Stored: Bituminous Concrete.",
+ "RWY 09/27 strip: AIP 2.12 = 3780 x 280 m, AD chart label = 3780 x 300 m. Stored: 280 (AIP text) — verify.",
+ "LOC 23 / ILS: AIP 2.19 lists 'ILS CAT I' and 'Classification: CAT III' on the same row — transcribed as published, verify with AIS.",
+ "Stand coordinates (P1 C1–C11 etc.) come from the APDC1 data page AMDT 01/26 (CHG: COOR STANDS C1 TO C11); transcribed from an image, so double-check critical values.",
+ "Obstacle pylons (DAAGOB013-072) are grouped by parking; individual coordinates remain in AIP AD 2.10.",
+ "RWY 05 threshold elevation appears with 3 values: AIP 2.12 = 21 M, APDC1 = 20 M, IAC6/IAC7 heights 'related to THR RWY 05 - ELEV 22 m'. RWY 23: IAC4 says THR elev 25 m vs AIP 24.4 M. Verify with AIS.",
+ "Chart dates differ: IAC1 and IAC3 = 18 DEC 23; VAC1 and VAC2 = 14 SEP 23 (AMDT 03/23); IAC4 and IAC8 = 20 MAR 25; IAC5 = 17 APR 25; AD, APDC1, IAC6, IAC7, IAC9 = 19 FEB 26 (AMDT 01/26). Check that the older ones are still current (Date column in Charts).",
+ "The 21 charts listed in AIP AD 2.24 (plus the APDC data page) are catalogued. Provided so far: AD, APDC1, APDC-DATA1, IAC1, IAC3-IAC9, VAC1, VAC2. Missing: IAC2, SID1-4, AOC1-2, PATC, ATCSMAC. Drop <CODE>.pdf/.png in charts/DAAG/ or use Charts > Import."
+]

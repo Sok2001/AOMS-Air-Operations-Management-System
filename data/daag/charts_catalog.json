@@ -1,0 +1,156 @@
+[
+ {
+  "code": "AD",
+  "type": "AD",
+  "title": "Aerodrome Chart – ICAO",
+  "rwy": "",
+  "category": ""
+ },
+ {
+  "code": "APDC1",
+  "type": "APDC",
+  "title": "Aircraft Parking/Docking Chart – ICAO",
+  "rwy": "",
+  "category": ""
+ },
+ {
+  "code": "APDC-DATA1",
+  "type": "APDC",
+  "title": "Parking/Docking Chart – stand & taxiway data",
+  "rwy": "",
+  "category": ""
+ },
+ {
+  "code": "AOC1",
+  "type": "AOC",
+  "title": "Aerodrome Obstacle Chart Type A – RWY 05/23",
+  "rwy": "05/23",
+  "category": ""
+ },
+ {
+  "code": "AOC2",
+  "type": "AOC",
+  "title": "Aerodrome Obstacle Chart Type A – RWY 09/27",
+  "rwy": "09/27",
+  "category": ""
+ },
+ {
+  "code": "PATC",
+  "type": "PATC",
+  "title": "Precision Approach Terrain Chart – RWY 23",
+  "rwy": "23",
+  "category": ""
+ },
+ {
+  "code": "SID1",
+  "type": "SID",
+  "title": "Standard Departure Chart – Instrument – RWY 05",
+  "rwy": "05",
+  "category": ""
+ },
+ {
+  "code": "SID2",
+  "type": "SID",
+  "title": "Standard Departure Chart – Instrument – RWY 23",
+  "rwy": "23",
+  "category": ""
+ },
+ {
+  "code": "SID3",
+  "type": "SID",
+  "title": "Standard Departure Chart – Instrument – RWY 09",
+  "rwy": "09",
+  "category": ""
+ },
+ {
+  "code": "SID4",
+  "type": "SID",
+  "title": "Standard Departure Chart – Instrument – RWY 27",
+  "rwy": "27",
+  "category": ""
+ },
+ {
+  "code": "ATCSMAC",
+  "type": "ATCSMAC",
+  "title": "ATC Surveillance Minimum Altitude Chart",
+  "rwy": "",
+  "category": ""
+ },
+ {
+  "code": "IAC1",
+  "type": "IAC",
+  "title": "DVOR/DME, ILS or LOC RWY 09",
+  "rwy": "09",
+  "category": "A/B/C/D"
+ },
+ {
+  "code": "IAC2",
+  "type": "IAC",
+  "title": "ILS or LOC RWY 09",
+  "rwy": "09",
+  "category": "A/B/C/D"
+ },
+ {
+  "code": "IAC3",
+  "type": "IAC",
+  "title": "VOR RWY 23",
+  "rwy": "23",
+  "category": "A/B/C/D"
+ },
+ {
+  "code": "IAC4",
+  "type": "IAC",
+  "title": "ILS or LOC RWY 23",
+  "rwy": "23",
+  "category": "A/B/C/D"
+ },
+ {
+  "code": "IAC5",
+  "type": "IAC",
+  "title": "VOR RWY 27",
+  "rwy": "27",
+  "category": "A/B/C/D"
+ },
+ {
+  "code": "IAC6",
+  "type": "IAC",
+  "title": "VOR RWY 05",
+  "rwy": "05",
+  "category": "C/D"
+ },
+ {
+  "code": "IAC7",
+  "type": "IAC",
+  "title": "VOR RWY 05",
+  "rwy": "05",
+  "category": "A/B"
+ },
+ {
+  "code": "IAC8",
+  "type": "IAC",
+  "title": "ILS or LOC RWY 27",
+  "rwy": "27",
+  "category": "A/B/C/D"
+ },
+ {
+  "code": "IAC9",
+  "type": "IAC",
+  "title": "VOR RWY 09",
+  "rwy": "09",
+  "category": "A/B/C/D"
+ },
+ {
+  "code": "VAC1",
+  "type": "VAC",
+  "title": "Visual Approach Chart – ICAO",
+  "rwy": "",
+  "category": ""
+ },
+ {
+  "code": "VAC2",
+  "type": "VAC",
+  "title": "Visual Approach Chart – ICAO (Helicopter)",
+  "rwy": "",
+  "category": ""
+ }
+]

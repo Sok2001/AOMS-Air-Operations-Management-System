@@ -1,0 +1,690 @@
+[
+ {
+  "apron": "P1",
+  "stand": "C1",
+  "category": "Cat C AT75",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364159.61N",
+  "lon": "0031259.47E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C2",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364158.68N",
+  "lon": "0031257.37E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C3",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364158.07N",
+  "lon": "0031255.28E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C4",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364157.51N",
+  "lon": "0031253.18E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C5",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364156.96N",
+  "lon": "0031251.08E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C6",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364156.39N",
+  "lon": "0031248.98E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C7",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364155.83N",
+  "lon": "0031246.88E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C8",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364155.27N",
+  "lon": "0031244.77E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C9",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364154.71N",
+  "lon": "0031242.68E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C10",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364154.13N",
+  "lon": "0031240.57E"
+ },
+ {
+  "apron": "P1",
+  "stand": "C11",
+  "category": "Cat C B738",
+  "strength": "880 F/D/W/T Asphalt",
+  "lat": "364153.58N",
+  "lon": "0031238.47E"
+ },
+ {
+  "apron": "P2",
+  "stand": "S6",
+  "category": "Cat D B747-B746",
+  "strength": "Bituminous concrete",
+  "lat": "364153.72N",
+  "lon": "0031257.10E"
+ },
+ {
+  "apron": "P2",
+  "stand": "S7",
+  "category": "Cat D B747-A300",
+  "strength": "Bituminous concrete",
+  "lat": "364150.81N",
+  "lon": "0031258.31E"
+ },
+ {
+  "apron": "P2",
+  "stand": "S8",
+  "category": "Cat D B747-A300",
+  "strength": "Bituminous concrete",
+  "lat": "364147.88N",
+  "lon": "0031259.53E"
+ },
+ {
+  "apron": "P2",
+  "stand": "S9",
+  "category": "Cat C B727",
+  "strength": "Bituminous concrete",
+  "lat": "364152.24N",
+  "lon": "0031250.29E"
+ },
+ {
+  "apron": "P2",
+  "stand": "S10",
+  "category": "Cat D A300",
+  "strength": "Bituminous concrete",
+  "lat": "364149.98N",
+  "lon": "0031251.47E"
+ },
+ {
+  "apron": "P2",
+  "stand": "S11",
+  "category": "Cat D A300",
+  "strength": "Bituminous concrete",
+  "lat": "364147.66N",
+  "lon": "0031252.46E"
+ },
+ {
+  "apron": "P2",
+  "stand": "S12",
+  "category": "Cat D A300",
+  "strength": "Bituminous concrete",
+  "lat": "364145.49N",
+  "lon": "0031253.51E"
+ },
+ {
+  "apron": "P9",
+  "stand": "S4",
+  "category": "Cat B-C ATR72-Q400",
+  "strength": "530 F/D/W/T Bituminous concrete",
+  "lat": "364153.01N",
+  "lon": "0031309.99E"
+ },
+ {
+  "apron": "P9",
+  "stand": "S3",
+  "category": "Cat B-C ATR72-Q400",
+  "strength": "530 F/D/W/T Bituminous concrete",
+  "lat": "364154.65N",
+  "lon": "0031309.31E"
+ },
+ {
+  "apron": "P9",
+  "stand": "S2",
+  "category": "Cat B-C ATR72-Q400",
+  "strength": "530 F/D/W/T Bituminous concrete",
+  "lat": "364156.29N",
+  "lon": "0031308.63E"
+ },
+ {
+  "apron": "P9",
+  "stand": "S1",
+  "category": "Cat B-C ATR72-Q400",
+  "strength": "530 F/D/W/T Bituminous concrete",
+  "lat": "364157.92N",
+  "lon": "0031307.96E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W1",
+  "category": "Cat C",
+  "strength": "800 R/D/W/T concrete",
+  "lat": "364153.50N",
+  "lon": "0031233.20E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W2",
+  "category": "Cat D",
+  "strength": "800 R/D/W/T concrete",
+  "lat": "364151.80N",
+  "lon": "0031232.80E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W3A",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364150.50N",
+  "lon": "0031231.70E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W3B",
+  "category": "Cat E",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364150.70N",
+  "lon": "0031231.80E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W3C",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.50N",
+  "lon": "0031231.30E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W4A",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364148.90N",
+  "lon": "0031229.60E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W4B",
+  "category": "Cat E",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.30N",
+  "lon": "0031230.00E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W5",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364148.90N",
+  "lon": "0031228.00E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W6A",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.30N",
+  "lon": "0031226.20E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W6B",
+  "category": "Cat E",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.40N",
+  "lon": "0031226.80E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W7",
+  "category": "Cat E",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.70N",
+  "lon": "0031223.90E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W8",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.00N",
+  "lon": "0031221.60E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W9",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.10N",
+  "lon": "0031219.70E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W10A",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.80N",
+  "lon": "0031218.50E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W10B",
+  "category": "Cat E",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364149.90N",
+  "lon": "0031218.70E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W10C",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364150.10N",
+  "lon": "0031217.30E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W11A",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364151.50N",
+  "lon": "0031216.30E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W11B",
+  "category": "Cat C/E",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364151.10N",
+  "lon": "0031216.80E"
+ },
+ {
+  "apron": "P10",
+  "stand": "W12",
+  "category": "Cat C",
+  "strength": "910 R/D/W/T concrete",
+  "lat": "364153.00N",
+  "lon": "0031215.80E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W13",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364154.04N",
+  "lon": "0031209.66E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W14",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364152.81N",
+  "lon": "0031209.61E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W15",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364151.51N",
+  "lon": "0031209.57E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W16",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364149.76N",
+  "lon": "0031209.32E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W17",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364148.43N",
+  "lon": "0031209.44E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W18",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364147.13N",
+  "lon": "0031209.40E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W19",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364146.22N",
+  "lon": "0031209.60E"
+ },
+ {
+  "apron": "P11",
+  "stand": "W20",
+  "category": "Cat F",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364144.67N",
+  "lon": "0031208.70E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W21",
+  "category": "Cat F",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364144.21N",
+  "lon": "0031206.69E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W22A",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364145.55N",
+  "lon": "0031204.07E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W22B",
+  "category": "Cat E",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364145.74N",
+  "lon": "0031204.64E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W22C",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364146.39N",
+  "lon": "0031203.43E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W23A",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364147.88N",
+  "lon": "0031204.80E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W23B",
+  "category": "Cat E",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364148.37N",
+  "lon": "0031204.81E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W23C",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364149.05N",
+  "lon": "0031204.00E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W24A",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364150.15N",
+  "lon": "0031204.89E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W24B",
+  "category": "Cat E",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364151.00N",
+  "lon": "0031204.89E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W24C",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364151.72N",
+  "lon": "0031204.17E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W25A",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364154.51N",
+  "lon": "0031203.73E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W25B",
+  "category": "Cat E",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364154.57N",
+  "lon": "0031203.09E"
+ },
+ {
+  "apron": "P12",
+  "stand": "W25C",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364154.38N",
+  "lon": "0031201.64E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T1A",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364155.16N",
+  "lon": "0031158.86E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T1B",
+  "category": "Cat E",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364155.23N",
+  "lon": "0031157.93E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T1C",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364154.68N",
+  "lon": "0031157.25E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T2",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364154.42N",
+  "lon": "0031155.59E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T3",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364151.02N",
+  "lon": "0031152.84E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T4",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364149.69N",
+  "lon": "0031152.80E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T5",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364148.39N",
+  "lon": "0031152.72E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T6",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364147.06N",
+  "lon": "0031152.67E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T7",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364145.76N",
+  "lon": "0031152.63E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T8",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364144.46N",
+  "lon": "0031152.58E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T9",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364142.71N",
+  "lon": "0031152.54E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T10",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364141.38N",
+  "lon": "0031152.46E"
+ },
+ {
+  "apron": "P12",
+  "stand": "T11",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364140.08N",
+  "lon": "0031152.41E"
+ },
+ {
+  "apron": "P13",
+  "stand": "S16",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.02N",
+  "lon": "0031220.33E"
+ },
+ {
+  "apron": "P13",
+  "stand": "S17",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.06N",
+  "lon": "0031218.32E"
+ },
+ {
+  "apron": "P13",
+  "stand": "S18",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.12N",
+  "lon": "0031216.30E"
+ },
+ {
+  "apron": "P13",
+  "stand": "S19",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.16N",
+  "lon": "0031214.29E"
+ },
+ {
+  "apron": "P14",
+  "stand": "S20",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.37N",
+  "lon": "0031206.15E"
+ },
+ {
+  "apron": "P14",
+  "stand": "S21",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.40N",
+  "lon": "0031204.13E"
+ },
+ {
+  "apron": "P14",
+  "stand": "S22",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.48N",
+  "lon": "0031202.12E"
+ },
+ {
+  "apron": "P14",
+  "stand": "S23",
+  "category": "Cat C",
+  "strength": "920 R/D/W/T concrete",
+  "lat": "364137.51N",
+  "lon": "0031200.10E"
+ },
+ {
+  "apron": "P7",
+  "stand": "N1",
+  "category": "NIL",
+  "strength": "Bituminous Concrete",
+  "lat": null,
+  "lon": null
+ },
+ {
+  "apron": "P7",
+  "stand": "N2",
+  "category": "NIL",
+  "strength": "Bituminous Concrete",
+  "lat": null,
+  "lon": null
+ },
+ {
+  "apron": "P7",
+  "stand": "N3",
+  "category": "NIL",
+  "strength": "Bituminous Concrete",
+  "lat": null,
+  "lon": null
+ }
+]

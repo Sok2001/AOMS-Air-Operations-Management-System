@@ -1,0 +1,54 @@
+{
+ "AD": {
+  "date": "19 FEB 26",
+  "airac": "AMDT 01/26"
+ },
+ "APDC1": {
+  "date": "19 FEB 26",
+  "airac": "AMDT 01/26"
+ },
+ "APDC-DATA1": {
+  "date": "19 FEB 26",
+  "airac": "AMDT 01/26"
+ },
+ "IAC1": {
+  "date": "18 DEC 23",
+  "airac": ""
+ },
+ "IAC3": {
+  "date": "18 DEC 23",
+  "airac": ""
+ },
+ "IAC4": {
+  "date": "20 MAR 25",
+  "airac": ""
+ },
+ "IAC5": {
+  "date": "17 APR 25",
+  "airac": ""
+ },
+ "IAC6": {
+  "date": "19 FEB 26",
+  "airac": "AMDT 01/26"
+ },
+ "IAC7": {
+  "date": "19 FEB 26",
+  "airac": "AMDT 01/26"
+ },
+ "IAC9": {
+  "date": "19 FEB 26",
+  "airac": "AMDT 01/26"
+ },
+ "IAC8": {
+  "date": "20 MAR 25",
+  "airac": ""
+ },
+ "VAC1": {
+  "date": "14 SEP 23",
+  "airac": "AMDT 03/23"
+ },
+ "VAC2": {
+  "date": "14 SEP 23",
+  "airac": "AMDT 03/23"
+ }
+}

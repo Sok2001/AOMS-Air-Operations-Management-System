@@ -1,0 +1,37 @@
+[
+ {
+  "service": "TWR",
+  "callsign": "Algiers TWR",
+  "freq": "118.7 / 119.7 (a)",
+  "hours": "H24",
+  "remarks": ""
+ },
+ {
+  "service": "APP",
+  "callsign": "Algiers APP",
+  "freq": "121.4 / 120.8 (a)",
+  "hours": "H24",
+  "remarks": ""
+ },
+ {
+  "service": "SOL (Ground)",
+  "callsign": "Algiers Ground",
+  "freq": "121.8",
+  "hours": "H24",
+  "remarks": ""
+ },
+ {
+  "service": "VDF",
+  "callsign": "Algiers Gonio",
+  "freq": "121.4 / 119.7 (a)",
+  "hours": "H24",
+  "remarks": ""
+ },
+ {
+  "service": "ATIS",
+  "callsign": "Algiers",
+  "freq": "128.525",
+  "hours": "H24",
+  "remarks": "English"
+ }
+]
