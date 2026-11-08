@@ -9,8 +9,7 @@ from flight import flight_exists, update_flight_status, get_flight_by_number
 from logs import add_log
 from utc_time import get_utc_datetime
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATABASE = os.path.join(BASE_DIR, "aoms.db")
+from database import DATABASE
 
 
 # Flight phases in order

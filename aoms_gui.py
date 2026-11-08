@@ -22,7 +22,7 @@ import customtkinter as ctk
 
 from config import (AIRPORT_NAME, ICAO, IATA, ARRIVAL_CAPACITY, DEPARTURE_CAPACITY,
                     TOWER_FREQUENCY, GROUND_FREQUENCY, APPROACH_FREQUENCY, ATIS_FREQUENCY)
-from database import DATABASE, init_database
+from database import DATABASE
 from auth import (verify_password, hash_password, check_permission, is_strong_password,
                   count_administrators, MAX_ATTEMPTS, LOCK_DURATION, SESSION_TIMEOUT)
 from logs import add_log
@@ -1853,8 +1853,6 @@ class App(ctk.CTk):
 
 
 def main():
-    init_database()
-    aip_loader.sync_safe()
     while True:
         login = LoginWindow()
         login.mainloop()
@@ -1867,4 +1865,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    from database import initialize_database
+    if initialize_database(gui=True) is not None:
+        aip_loader.sync_safe()
+        main()

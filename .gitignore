@@ -28,5 +28,10 @@ dist/
 .idea/
 .vscode/
 
+# Local backups and generated build files
+*.db.*
+*.spec
+
+# Aviation charts - excluded pending redistribution permission
 charts/DAAG/*.pdf
 charts/DAAG/*.png

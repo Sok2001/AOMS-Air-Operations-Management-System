@@ -2,9 +2,9 @@
 if Pillow or a file is missing, so the program always starts."""
 
 import os
+from app_paths import resource_path
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ICON_DIR = os.path.join(BASE_DIR, "assets", "icons")
+ICON_DIR = resource_path("assets", "icons")
 _cache = {}
 
 

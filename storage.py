@@ -1,7 +1,9 @@
 import json
 import os
 
-FILE_NAME = "flights.json"
+from app_paths import FLIGHTS_FILE
+
+FILE_NAME = FLIGHTS_FILE
 
 
 def load_flights():

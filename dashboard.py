@@ -4,8 +4,7 @@ import os
 from utc_time import get_utc_time, get_utc_date
 from config import ICAO, AIRPORT_NAME
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATABASE = os.path.join(BASE_DIR, "aoms.db")
+from database import DATABASE
 
 
 def dashboard():

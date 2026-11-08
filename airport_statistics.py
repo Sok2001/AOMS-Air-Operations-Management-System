@@ -8,10 +8,9 @@ import os
 from flight import get_flight_count, get_departure_flights, get_arrival_flights
 from logs import total_logs
 from runway import count_available_runways, count_occupied_runways, get_active_runway
-from database import get_connection
+from database import DATABASE, get_connection
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATABASE = os.path.join(BASE_DIR, "aoms.db")
+from database import DATABASE
 
 
 def connect():

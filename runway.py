@@ -6,12 +6,11 @@ DAAG - Algiers International Airport
 import sqlite3
 import os
 
-from database import get_connection
+from database import DATABASE, get_connection
 from logs import add_log
 from utc_time import get_utc_datetime
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATABASE = os.path.join(BASE_DIR, "aoms.db")
+from database import DATABASE
 
 
 # =============================================

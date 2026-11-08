@@ -9,7 +9,7 @@ Entry point.
 
 import sys
 
-from database import init_database
+from database import initialize_database
 
 
 def run_cli():
@@ -95,7 +95,10 @@ def run_cli():
 
 
 def main():
-    created = init_database()
+    created = initialize_database(gui="--cli" not in sys.argv)
+    if created is None:
+        print("AOMS setup cancelled.")
+        return
     import aip_loader
     aip_loader.sync_safe()          # AIP data (DAAG) + chart library; idempotent
     if created:

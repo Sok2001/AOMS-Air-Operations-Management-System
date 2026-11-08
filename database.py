@@ -10,15 +10,66 @@ import sqlite3
 from config import ADMIN_USERNAME, ADMIN_PASSWORD, RUNWAYS
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATABASE = os.environ.get("AOMS_DB") or os.path.join(BASE_DIR, "aoms.db")
+from app_paths import DATABASE_PATH as DATABASE
 
 
 def get_connection():
     return sqlite3.connect(DATABASE)
 
 
-def init_database():
+def has_administrator():
+    """Check whether an administrator account already exists."""
+    conn = get_connection()
+    try:
+        row = conn.execute(
+            "SELECT COUNT(*) FROM users WHERE role='Administrator'"
+        ).fetchone()
+        return bool(row and row[0])
+    except sqlite3.OperationalError:
+        return False
+    finally:
+        conn.close()
+
+
+def initialize_database(gui=True):
+    """Initialize the database and request a password on first GUI launch."""
+    if has_administrator():
+        return init_database()
+
+    if ADMIN_PASSWORD and ADMIN_PASSWORD.strip():
+        return init_database()
+
+    if gui:
+        from first_run import request_admin_password
+        password = request_admin_password()
+    else:
+        from getpass import getpass
+        from auth import is_strong_password
+
+        password = None
+        while not password:
+            candidate = getpass("Create administrator password: ")
+            valid, reason = is_strong_password(candidate)
+            if not valid:
+                print(reason)
+                continue
+
+            confirmation = getpass("Confirm password: ")
+            if candidate != confirmation:
+                print("Passwords do not match.")
+                continue
+
+            password = candidate
+
+    if not password:
+        return None
+
+    return init_database(admin_password=password)
+
+
+def init_database(admin_password=None):
     """Create tables if missing, seed runways and the default admin."""
+    password = ADMIN_PASSWORD if admin_password is None else admin_password
     conn = get_connection()
     cur = conn.cursor()
 
@@ -169,14 +220,11 @@ def init_database():
     cur.execute("SELECT COUNT(*) FROM users WHERE role='Administrator'")
     created_admin = False
     if cur.fetchone()[0] == 0:
-        if not ADMIN_PASSWORD or not ADMIN_PASSWORD.strip():
+        if not password or not password.strip():
             conn.close()
-            raise RuntimeError(
-                "Administrator password is missing. "
-                "Create a .env file and set ADMIN_PASSWORD before first launch."
-            )
+            raise RuntimeError("Administrator password is missing.")
 
-        pw = hashlib.sha256(ADMIN_PASSWORD.encode()).hexdigest()
+        pw = hashlib.sha256(password.encode()).hexdigest()
         cur.execute("""INSERT INTO users (username, password, full_name, role, active)
                        VALUES (?, ?, ?, 'Administrator', 1)""",
                     (ADMIN_USERNAME, pw, "System Administrator"))

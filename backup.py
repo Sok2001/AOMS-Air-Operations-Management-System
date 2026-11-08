@@ -7,8 +7,8 @@ import shutil
 from datetime import datetime
 
 from database import DATABASE
+from app_paths import BACKUP_DIR
 
-BACKUP_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "backup")
 
 
 def create_backup():

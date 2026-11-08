@@ -5,6 +5,8 @@ Change Password Script
 import sqlite3
 import hashlib
 
+from database import DATABASE
+
 def hash_password(password):
     """Hash password using SHA256"""
     return hashlib.sha256(password.encode()).hexdigest()
@@ -27,7 +29,7 @@ def change_password():
         print(" ✗ Password must be at least 6 characters.")
         return
 
-    conn = sqlite3.connect("aoms.db")
+    conn = sqlite3.connect(DATABASE)
     cursor = conn.cursor()
 
     # Check if user exists
